@@ -23,7 +23,7 @@
     "no-unused-vars": [
       "error",
       {
-        "argsIgnorePattern": "req|res|next|err|val"
+        "argsIgnorePattern": "parent|args|ctx|info"
       }
     ],
     "new-cap": "off",

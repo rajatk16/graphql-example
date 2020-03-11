@@ -3,12 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "description": "Comics API in GraphQL",
-<<<<<<< HEAD
   "main": "src/server.js",
-=======
-  "main": "server.js",
-  "type": "module",
->>>>>>> 56f8b480acd46c78d202fd194983ab04ccf357a8
   "repository": "https://github.com/rajatk16/comics-api-graphql",
   "author": "Rajat <rajat.sudagade@gmail.com>",
   "license": "MIT",
