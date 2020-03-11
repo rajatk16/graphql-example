@@ -1,8 +1,9 @@
 {
   "name": "comics-api-graphql",
   "version": "0.0.1",
+  "type": "module",
   "description": "Comics API in GraphQL",
-  "main": "server.js",
+  "main": "src/server.js",
   "repository": "https://github.com/rajatk16/comics-api-graphql",
   "author": "Rajat <rajat.sudagade@gmail.com>",
   "license": "MIT",
@@ -21,5 +22,14 @@
   },
   "engines": {
     "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-tag": "^2.10.3",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
   }
 }
