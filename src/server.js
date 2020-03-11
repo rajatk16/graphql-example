@@ -1,6 +1,7 @@
 import { GraphQLServer } from 'graphql-yoga';
 import gql from 'graphql-tag';
 
+<<<<<<< HEAD
 // Type Definitions
 const typeDefs = gql`
   type Query {
@@ -18,6 +19,17 @@ const resolvers = {
     name: () => 'Rajat S',
     location: () => 'Dallas TX',
     bio: () => 'Developer at Infovision'
+=======
+const typeDefs = gql`
+  type Query {
+    hey: String!
+  }
+`;
+
+const resolvers = {
+  Query: {
+    hey: () => 'this is my first query'
+>>>>>>> 56f8b480acd46c78d202fd194983ab04ccf357a8
   }
 };
 
@@ -26,4 +38,8 @@ const server = new GraphQLServer({
   resolvers
 });
 
+<<<<<<< HEAD
 server.start(() => console.log('GraphQL Server is running!'));
+=======
+server.start(() => console.log('GraphQL is running!'));
+>>>>>>> 56f8b480acd46c78d202fd194983ab04ccf357a8
