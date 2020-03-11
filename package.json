@@ -1,0 +1,25 @@
+{
+  "name": "comics-api-graphql",
+  "version": "0.0.1",
+  "description": "Comics API in GraphQL",
+  "main": "server.js",
+  "repository": "https://github.com/rajatk16/comics-api-graphql",
+  "author": "Rajat <rajat.sudagade@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
